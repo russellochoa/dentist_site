@@ -1,0 +1,133 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+
+body {
+	background-color: #0A5CA1;
+}
+
+header {
+  	height: 30px;
+  	width: 100%;
+	margin: 0 auto;
+	background-color: #074F8C;
+	border-bottom: 1px solid #3688C7;
+}
+
+.info {
+	max-width: 960px;
+  	height: 30px;
+	margin: 0 auto;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-end;
+/* cant figure out how to wrap to the right. */
+
+}
+
+.infol{
+	font-family: helvetica;
+	color: #C0D3E2;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: right;
+}
+
+
+.hbuttons {
+	float: right;
+	font-family: Helvetica;
+	font-size: 25px;
+	letter-spacing: -2px;
+	font-weight: 200;
+	line-height: 4em;
+	text-decoration: none;
+	color: white;
+	padding-right: 60px;
+}
+
+.page {
+	background-color: white;
+	max-width: 960px;
+	min-height: 1000px;
+	margin: 30px auto 0;
+	padding: 3%;
+	box-sizing: border-box;
+	ddisplay: flex;
+
+	
+
+}
+
+.effect8
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.effect8:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+
+
+.nav2 {
+	float: right;
+	margin: 15px 120px 80px 0px;
+}
+
+.navt {
+	font-family: helvetica;
+	font-size: 15px;
+	color: #2679B6;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+
+
+.content {
+	width: 43%;
+	min-height: 400px;
+	height: 400px;
+	background-color: gray;
+	margin: 1px;
+	margin-right: 5%;
+	float: left;
+	display: flex;
+	justify-content: flex-end;
+
+
+
+}
+
+
+
